@@ -1,0 +1,21 @@
+.face {
+  height: 1080px;
+  position: relative;
+  margin-right: 70px;
+}
+
+.face__image {
+  /* width: 638px;
+  height: 1080px; */
+}
+
+.face__signature {
+  padding: 14px 96px;
+  background-color: #121212;
+  font-family: 'Roboto Regular';
+  font-size: 64px;
+  line-height: 75px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 977px;
+}

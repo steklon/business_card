@@ -1,0 +1,20 @@
+.conteiner {
+  padding-top: 60px;
+}
+
+.title-section__name {
+  font-family: 'Roboto Medium';
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.title-section__town {
+  font-family: 'Roboto Medium';
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.title-section__links {
+  text-decoration: none;
+  margin-right: 30px;
+}
