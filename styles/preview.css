@@ -1,15 +1,15 @@
-.face {
+.preview {
   height: 1080px;
   position: relative;
   margin-right: 70px;
 }
 
-.face__image {
+.preview__image {
   /* width: 638px;
   height: 1080px; */
 }
 
-.face__signature {
+.preview__caption {
   padding: 14px 96px;
   background-color: #121212;
   font-family: 'Roboto Regular';
@@ -18,4 +18,5 @@
   color: #FFFFFF;
   position: absolute;
   top: 977px;
+  cursor: default;
 }

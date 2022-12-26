@@ -1,0 +1,36 @@
+.form {
+  width: 702px;
+}
+
+.form__input {
+  width: 329px;
+  height: 66px;
+  margin-right: 25px;
+  border-radius: 11px;
+  border: 1px solid #121212;
+  background-color: #FFFFFF;
+  font-family: 'Roboto Medium';
+  color: #121212;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 25px;
+}
+
+.form__input::placeholder {
+  padding: 14px 152px 14px 16px;
+  font-family: 'Roboto Medium';
+  color: #121212;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.form__submit {
+  width: 702px;
+  height: 66px;
+  background-color: #121212;
+  font-family: 'Roboto Medium';
+  border-radius: 11px;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}

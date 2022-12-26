@@ -1,0 +1,28 @@
+.technologies {
+  margin-bottom: 50px;
+}
+
+.technologies__title {
+  font-family: 'Roboto Medium';
+  font-size: 32px;
+  margin-bottom: 20px;
+  cursor: default;
+  color: #121212;
+}
+
+.technologies__list {
+  display: flex;
+  gap: 25px;
+}
+
+.technologies__link {
+  display: flex;
+  background-color: #414141;
+  padding: 14px 55px;
+  border-radius: 45px;
+  text-decoration: none;
+  font-family: 'Roboto Medium';
+  color: #FFFFFF;
+  font-size: 32px;
+  line-height: 38px;
+}

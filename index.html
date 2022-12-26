@@ -5,61 +5,143 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Сайт визитка</title>
+  <link rel="stylesheet" href="./styles/base.css">
   <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/fonts.css">
-  <link rel="stylesheet" href="./styles/portrait.css">
-  <link rel="stylesheet" href="./styles/main.css">
-  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/preview.css">
+  <link rel="stylesheet" href="./styles/subject.css">
+  <link rel="stylesheet" href="./styles/technologies.css">
+  <link rel="stylesheet" href="./styles/about.css">
+  <link rel="stylesheet" href="./styles/interaction.css">
+  
   
 </head>
 <body>
   <div class="wrapper">
-    <figure class="face">
-      <p><img src="./images/portrait/portrait.jpg" alt="портрет разработчика" class="face__image"></p>
+    <figure class="preview">
+      <p><img src="./images/portrait/portrait.jpg" alt="портрет разработчика" class="preview__image"></p>
 
-      <figcaption class="face__signature">РАЗРАБОТЧИК</figcaption>
+      <figcaption class="preview__caption">РАЗРАБОТЧИК</figcaption>
     </figure>
 
     <main class="conteiner">
-      <section class="title-section">
+      <section class="subject">
 
-        <h1 class="title-section__name">
+        <h1 class="subject__title">
           Иванов Иван Иванович
         </h1>
 
-        <p class="title-section__town">
+        <p class="subject__town">
           г. Москва
         </p>
 
-        <div>
-          <a href="" class="title-section__links">
-            <img src="./images/main/instagram.svg" alt="инстаграмм">
-          </a>
+        <ul class="subject__list">
+          <li>
+            <a href="" class="subject__link">
+              <img src="./images/main/instagram.svg" alt="инстаграмм">
+            </a>
+          </li>
 
-          <a href="" class="title-section__links">
-            <img src="./images/main/whatsapp.svg" alt="ватсап">
-          </a>
+          <li>
+            <a href="" class="subject__link">
+              <img src="./images/main/whatsapp.svg" alt="ватсап">
+            </a>
+          </li>
 
-          <a href="" class="title-section__links">
-            <img src="./images/main/vk.svg" alt="вконтакте">
-          </a>
+          <li>
+            <a href="" class="subject__link">
+              <img src="./images/main/vk.svg" alt="вконтакте">
+            </a>
+          </li>
 
-          <a href=""  class="title-section__links">
-            <img src="./images/main/telegram.svg" alt="телеграмм">
-          </a>
+          <li>
+            <a href=""  class="subject__link">
+              <img src="./images/main/telegram.svg" alt="телеграмм">
+            </a>
+          </li>
 
-          <a href="" class="title-section__links">
-            <img src="./images/main/LinkedIn.svg" alt="линкед ин">
-          </a>
+          <li>
+            <a href="" class="subject__link">
+              <img src="./images/main/LinkedIn.svg" alt="линкед ин">
+            </a>
+          </li>
 
-          <a href="" class="title-section__links">
-            <img src="./images/main/githab.svg" alt="гитхаб">
-          </a>
-
-        </div>
+          <li>
+            <a href="" class="subject__link">
+              <img src="./images/main/githab.svg" alt="гитхаб">
+            </a>
+          </li>
+        </ul>
 
       </section>
 
+      <section class="technologies">
+        <h2 class="technologies__title">
+          Стек технологии:
+        </h2>
+
+        <ul class="technologies__list">
+          <li>
+            <a href="" class="technologies__link">
+              HTML
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="technologies__link">
+              CSS
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="technologies__link">
+              Saas
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="technologies__link">
+              БЭМ
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="technologies__link">
+              Flexbox
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="about">
+        <h2 class="about-title">
+          О себе:
+        </h2>
+
+        <div class="about-inner">
+          <p class="inner__description">
+            Лучший программист всех времен. Взломаю Пентагон, сверстаю сайт, поправлю кнопочку на 1 рх влево. Готов работать 24/7.  
+          </p>
+  
+          <p class="inner__description">
+            В свободное время учу английский, китайский. Играю в игры. Люблю бутерброды с колбасой и сыром.
+          </p>
+        </div>
+
+        
+      </section>
+
+      <section class="interaction">
+        <form class="form">
+          <input type="email" class="form__input" placeholder="email" required>
+
+          <input type="text" title="введите текст" name="name" class="form__input" placeholder="сообщение" required>
+
+          <button class="form__submit">
+            Связаться со мной
+          </button>
+        </form>
+      </section>
     </main>
   </div>
 </body>

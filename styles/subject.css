@@ -1,20 +1,28 @@
-.conteiner {
-  padding-top: 60px;
-}
-
-.title-section__name {
-  font-family: 'Roboto Medium';
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
-.title-section__town {
-  font-family: 'Roboto Medium';
-  font-size: 24px;
+.subject {
   margin-bottom: 50px;
 }
 
-.title-section__links {
+.subject__title {
+  font-family: 'Roboto Medium';
+  font-size: 48px;
+  margin-bottom: 20px;
+  cursor: default;
+  color: #121212;
+}
+
+.subject__town {
+  font-family: 'Roboto Medium';
+  font-size: 24px;
+  margin-bottom: 50px;
+  cursor: default;
+  color: #121212;
+}
+
+.subject__list {
+  display: flex;
+}
+
+.subject__link {
   text-decoration: none;
   margin-right: 30px;
 }
