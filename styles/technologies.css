@@ -5,14 +5,14 @@
 .technologies__title {
   font-family: 'Roboto Medium';
   font-size: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 23px;
   cursor: default;
   color: #121212;
 }
 
 .technologies__list {
   display: flex;
-  gap: 25px;
+  gap: 26px;
 }
 
 .technologies__link {

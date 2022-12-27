@@ -1,11 +1,11 @@
 .subject {
-  margin-bottom: 50px;
+  margin-bottom: 54px;
 }
 
 .subject__title {
   font-family: 'Roboto Medium';
   font-size: 48px;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
   cursor: default;
   color: #121212;
 }
@@ -13,7 +13,7 @@
 .subject__town {
   font-family: 'Roboto Medium';
   font-size: 24px;
-  margin-bottom: 50px;
+  margin-bottom: 51px;
   cursor: default;
   color: #121212;
 }

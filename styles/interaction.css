@@ -1,11 +1,11 @@
 .form {
-  width: 702px;
+  width: 725px;
 }
 
 .form__input {
-  width: 329px;
-  height: 66px;
-  margin-right: 25px;
+  width: 331px;
+  height: 62px;
+  margin-right: 22px;
   border-radius: 11px;
   border: 1px solid #121212;
   background-color: #FFFFFF;
@@ -17,7 +17,7 @@
 }
 
 .form__input::placeholder {
-  padding: 14px 152px 14px 16px;
+  padding: 14px 152px 14px 13px;
   font-family: 'Roboto Medium';
   color: #121212;
   font-size: 32px;
