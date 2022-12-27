@@ -1,7 +1,7 @@
 .preview {
-  height: 1080px;
+  /* height: 1080px; */
   position: relative;
-  margin-right: 71px;
+  margin-right: 69px;
 }
 
 .preview__image {
@@ -19,4 +19,22 @@
   position: absolute;
   top: 977px;
   cursor: default;
+}
+
+@media (max-width: 992px) {
+  .preview {
+    margin-right: 45px;
+  }
+
+  .preview__image {
+    width: 372px;
+    height: 658px;
+  }
+
+  .preview__caption {
+    position: static;
+    padding: 12px 60px;
+    font-size: 36px;
+    line-height: 42px;
+  }
 }

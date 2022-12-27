@@ -27,10 +27,41 @@
 .form__submit {
   width: 702px;
   height: 66px;
+  border: none;
   background-color: #121212;
   font-family: 'Roboto Medium';
   border-radius: 11px;
   font-size: 32px;
   line-height: 38px;
   color: #FFFFFF;
+}
+
+.form__submit:hover {
+  background-color: #414141;
+  transition: 0.3s ease-in;
+}
+
+@media (max-width: 992px) {
+  .form {
+    width: 504px;
+  }
+
+  .form__input {
+    width: 227px;
+    height: 43px;
+    margin-right: 16px;
+    margin-bottom: 21px;
+  }
+
+  .form__input::placeholder, .form__input {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .form__submit {
+    width: 485px;
+    height: 48px;
+    font-size: 24px;
+    line-height: 28px;
+  }
 }

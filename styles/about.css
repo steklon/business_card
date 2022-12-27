@@ -1,5 +1,6 @@
 .about {
   margin-bottom: 50px;
+  cursor: default;
 }
 
 .about-inner {
@@ -21,4 +22,21 @@
   font-size: 32px;
   line-height: 38px;
   text-indent: 30px;
+}
+
+@media (max-width: 992px) {
+  .about {
+    margin-bottom: 21px;
+  }
+
+  .about-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .inner__description {
+    width: 540px;
+    font-size: 20px;
+    line-height: 23px;
+  }
 }
