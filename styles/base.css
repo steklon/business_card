@@ -21,3 +21,17 @@
     width: 620px;
   }
 }
+
+@media (max-width: 540px) {
+  .wrapper {
+    width: 100%;
+    height: 1293px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conteiner {
+    width: 390px;
+    padding-top: 0
+  }
+}

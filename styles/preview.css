@@ -38,3 +38,25 @@
     line-height: 42px;
   }
 }
+
+@media (max-width: 540px) {
+  .preview {
+    margin: 0 0 68px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .preview__image {
+    width: 390px;
+    height: 689px;
+    /* margin-top: 2px; */
+  }
+
+  .preview__caption {
+    position: absolute;
+    top: 688px;
+    padding: 13px 111px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}

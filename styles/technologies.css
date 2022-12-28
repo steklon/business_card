@@ -56,3 +56,25 @@
     line-height: 28px;
   }
 }
+
+@media (max-width: 540px) {
+  .technologies {
+    margin-bottom: 16px
+  }
+
+  .technologies__title {
+    margin-bottom: 11px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .technologies__list {
+    gap: 9px 21px;
+  }
+  
+  .technologies__link {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 8px 35px;
+  }
+}

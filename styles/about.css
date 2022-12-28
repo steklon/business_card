@@ -40,3 +40,21 @@
     line-height: 23px;
   }
 }
+
+@media (max-width: 540px) {
+  .about {
+    margin-bottom: 15px;
+  }
+
+  .about-title {
+    margin-bottom: 11px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .inner__description {
+    width: 90%;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

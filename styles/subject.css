@@ -50,3 +50,26 @@
     line-height: 23px;
   }
 }
+
+@media (max-width: 540px) {
+  .subject {
+    margin-bottom: 15px;
+  }
+
+  .subject__title {
+    margin-bottom: 11px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .subject__town {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .subject__link-img {
+    width: 32px;
+    height: 32px;
+  }
+}
