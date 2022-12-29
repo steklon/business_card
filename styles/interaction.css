@@ -31,7 +31,7 @@
 }
 
 .form__submit {
-  width: 702px;
+  width: 100%;
   height: 66px;
   border: none;
   background-color: #121212;
@@ -49,13 +49,13 @@
 
 @media (max-width: 992px) {
   .form {
-    width: 550px;
+    width: 484px;
   }
 
   .form__input {
     width: 227px;
     height: 43px;
-    margin-right: 16px;
+    /* margin-right: 16px; */
     margin-bottom: 21px;
   }
 
@@ -65,7 +65,7 @@
   }
 
   .form__submit {
-    width: 485px;
+    /* width: 485px; */
     height: 48px;
     font-size: 24px;
     line-height: 28px;

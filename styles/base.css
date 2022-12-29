@@ -2,7 +2,7 @@
   width: 1920px;
   height: 1080px;
   display: flex;
-  background-image: url(../images/fon.jpg);
+  background-image: url(../images/fon1920px.jpg);
 }
 
 .main {
@@ -18,11 +18,12 @@
   .wrapper {
     width: 992px;
     height: 724px;
+    background-image: url(../images/fon992px.png);
   }
 
   .conteiner {
     padding-top: 20px;
-    width: 620px;
+    /* width: 620px; */
   }
 }
 
