@@ -1,11 +1,17 @@
 .form {
-  width: 800px;
+  width: 702px;
+}
+
+.form-item {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 .form__input {
   width: 331px;
   height: 62px;
-  margin-right: 22px;
+  /* margin-right: 22px; */
   border-radius: 11px;
   border: 1px solid #121212;
   background-color: #FFFFFF;
