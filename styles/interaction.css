@@ -9,9 +9,8 @@
 }
 
 .form__input {
-  width: 331px;
+  width: 334px;
   height: 62px;
-  /* margin-right: 22px; */
   border-radius: 11px;
   border: 1px solid #121212;
   background-color: #FFFFFF;
@@ -55,8 +54,11 @@
   .form__input {
     width: 227px;
     height: 43px;
-    /* margin-right: 16px; */
     margin-bottom: 21px;
+  }
+
+  .form__input::placeholder {
+    padding: 14px 152px 14px 13px;
   }
 
   .form__input::placeholder, .form__input {
@@ -90,7 +92,6 @@
   .form__input {
     width: 178px;
     height: 32px;
-    margin-right: 22px;
     margin-bottom: 0;
   }
 

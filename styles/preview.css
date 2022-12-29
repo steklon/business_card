@@ -1,7 +1,7 @@
 .preview {
   /* height: 1080px; */
   position: relative;
-  margin-right: 69px;
+  /* margin-right: 69px; */
 }
 
 .preview__image {
@@ -23,7 +23,7 @@
 
 @media (max-width: 992px) {
   .preview {
-    margin-right: 45px;
+    /* margin-right: 45px; */
   }
 
   .preview__image {
