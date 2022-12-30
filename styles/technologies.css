@@ -1,24 +1,24 @@
 .technologies {
-  margin-bottom: 50px;
+  margin-bottom: 4.8vh;
 }
 
 .technologies__title {
   font-family: 'Roboto Medium';
   font-size: 32px;
-  margin-bottom: 23px;
+  margin-bottom: 2vh;
   cursor: default;
   color: #121212;
 }
 
 .technologies__list {
   display: flex;
-  gap: 26px;
+  gap: 1.32vw;
 }
 
 .technologies__link {
   display: flex;
   background-color: #414141;
-  padding: 14px 55px;
+  padding: 1.23vh 2.87vw;
   border-radius: 45px;
   text-decoration: none;
   font-family: 'Roboto Medium';
@@ -34,24 +34,24 @@
 
 @media (max-width: 992px) {
   .technologies {
-    margin-bottom: 28px;
+    margin-bottom: 4vh;
   }
 
   .technologies__title {
     font-size: 24px;
     line-height: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 2.8vh;
   }
 
   .technologies__list {
     /* display: flex; */
     
     flex-wrap: wrap;
-    gap: 21px;
+    gap: 2.1vw;
   }
 
   .technologies__link {
-    padding: 10px 45px;
+    padding: 1.36vh 4.55vw;
     font-size: 24px;
     line-height: 28px;
   }

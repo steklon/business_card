@@ -1,15 +1,15 @@
 .about {
-  margin-bottom: 50px;
+  margin-bottom: 4.6vh;
   cursor: default;
 }
 
 .about-inner {
   display: grid;
-  gap: 10px;
+  gap: 0.7vh;
 }
 
 .about-title {
-  margin-bottom: 20px;
+  margin-bottom: 2vh;
   font-family: 'Roboto Medium';
   font-size: 32px;
   line-height: 38px;
@@ -30,12 +30,17 @@
   }
 
   .about-title {
+    margin-bottom: 2.9vh;
     font-size: 24px;
     line-height: 28px;
   }
 
+  .about-inner {
+    gap: 1.1vh;
+  }
+
   .inner__description {
-    width: 540px;
+    width: 54vw;
     font-size: 20px;
     line-height: 23px;
   }
