@@ -44,13 +44,10 @@
 
   .technologies__title {
     font-size: 3.3vh;
-    /* line-height: 28px; */
     margin-bottom: 2.8vh;
   }
 
   .technologies__list {
-    /* display: flex; */
-    
     flex-wrap: wrap;
     gap: 2.1vw;
   }
