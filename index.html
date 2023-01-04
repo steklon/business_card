@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сайт визитка</title>
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/fonts.css">
+  <link rel="stylesheet" href="./styles/preview.css">
+  <link rel="stylesheet" href="./styles/subject.css">
+  <link rel="stylesheet" href="./styles/technologies.css">
+  <link rel="stylesheet" href="./styles/about.css">
+  <link rel="stylesheet" href="./styles/interaction.css">
+  
+  
+</head>
+<body>
+  <div class="wrapper">
+    <figure class="preview">
+      <img src="./images/portrait/portrait.jpg" alt="портрет разработчика" class="preview__image">
+
+      <figcaption class="preview__caption">РАЗРАБОТЧИК</figcaption>
+    </figure>
+
+    <main class="main">
+      <div class="conteiner">
+        <section class="subject">
+
+          <h1 class="subject__title">
+            Иванов Иван Иванович
+          </h1>
+
+          <p class="subject__town">
+            г. Москва
+          </p>
+
+          <ul class="subject__list">
+            <li>
+              <a href="https://www.instagram.com" class="subject__link" title="instagram">
+                <img src="./images/main/instagram.svg" alt="инстаграмм" class="subject__link-img">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.whatsapp.com" class="subject__link" title="whatsapp">
+                <img src="./images/main/whatsapp.svg" alt="whatsapp" class="subject__link-img">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://vk.com" class="subject__link" title="вконтакте">
+                <img src="./images/main/vk.svg" alt="вконтакте" class="subject__link-img">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://web.telegram.org"  class="subject__link" title="telegram">
+                <img src="./images/main/telegram.svg" alt="telegram" class="subject__link-img">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://ru.linkedin.com" class="subject__link" title="linkedin">
+                <img src="./images/main/LinkedIn.svg" alt="линкед ин" class="subject__link-img">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com" class="subject__link" title="github">
+                <img src="./images/main/githab.svg" alt="гитхаб" class="subject__link-img">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+        <section class="technologies">
+          <h2 class="technologies__title">
+            Стек технологии:
+          </h2>
+
+          <ul class="technologies__list">
+            <li>
+              <a href="https://ru.wikipedia.org/wiki/HTML" class="technologies__link" title="о HTML">
+                HTML
+              </a>
+            </li>
+
+            <li>
+              <a href="https://ru.wikipedia.org/wiki/CSS" class="technologies__link" title="о CSS">
+                CSS
+              </a>
+            </li>
+
+            <li>
+              <a href="https://aws.amazon.com/ru/what-is/saas/" class="technologies__link" title="о Saas">
+                Saas
+              </a>
+            </li>
+
+            <li>
+              <a href="https://ru.bem.info/methodology/quick-start/" class="technologies__link" title="о БЭМ">
+                БЭМ
+              </a>
+            </li>
+
+            <li>
+              <a href="https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox" class="technologies__link" title="о Flexbox">
+                Flexbox
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="about">
+          <h2 class="about-title">
+            О себе:
+          </h2>
+
+          <div class="about-inner">
+            <p class="inner__description">
+              Лучший программист всех времен. Взломаю Пентагон, сверстаю сайт, поправлю кнопочку на 1 рх влево. Готов работать 24/7.  
+            </p>
+    
+            <p class="inner__description">
+              В свободное время учу английский, китайский. Играю в игры. Люблю бутерброды с колбасой и сыром.
+            </p>
+          </div>
+
+          
+        </section>
+
+        <section class="interaction">
+        <form class="form">
+
+          <div class="form-item">
+            <input type="email" class="form__input" placeholder="email" required>
+
+            <input type="text" title="введите текст" name="name" class="form__input" placeholder="сообщение" required>
+          </div>
+
+          <button class="form__submit">
+            Связаться со мной
+          </button>
+        </form>
+        </section>
+    </div>
+    </main>
+  </div>
+</body>
+</html>

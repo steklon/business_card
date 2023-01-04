@@ -1,0 +1,53 @@
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  background-image: url(../images/fon1920px.jpg);
+  background-repeat: no-repeat;
+}
+
+.main {
+  height: 100vh;
+  width: 67vw;
+  display: flex;
+  justify-content: center;
+}
+
+.conteiner {
+  height: 100vh;
+  width: 59.5vw;
+  padding-top: 5.9vh;
+}
+
+@media (max-width: 992px) {
+  .wrapper {
+    width: 992px;
+    background-image: url(../images/fon992px.png);
+  }
+
+  .conteiner {
+    padding-top: 3vh;
+    width: 53.4vw;
+  }
+}
+
+@media (max-width: 540px) {
+  .wrapper {
+    width: 540px;
+    height: 1293px;
+    flex-direction: column;
+    align-items: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .conteiner {
+    height: 100%;
+    width: 390px;
+    padding-top: 0
+  }
+}
