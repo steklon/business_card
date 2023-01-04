@@ -5,13 +5,13 @@
 
 .about-inner {
   display: grid;
-  gap: 0.7vh;
+  gap: 0.8vh;
 }
 
 .about-title {
   margin-bottom: 2vh;
   font-family: 'Roboto Medium';
-  font-size: 32px;
+  font-size: 3vh;
   line-height: 38px;
   color: #121212;
 }
@@ -19,20 +19,20 @@
 .inner__description {
   width: 95%;
   font-family: 'Roboto Medium';
-  font-size: 32px;
-  line-height: 38px;
-  text-indent: 30px;
+  font-size: 2.96vh;
+  line-height: 3.51vh;
+  text-indent: 2.8vh;
 }
 
 @media (max-width: 992px) {
   .about {
-    margin-bottom: 21px;
+    margin-bottom: 2.4vh;
   }
 
   .about-title {
-    margin-bottom: 2.9vh;
-    font-size: 24px;
-    line-height: 28px;
+    /* margin-bottom: 2.9vh; */
+    font-size: 3.3vh;
+    /* line-height: 28px; */
   }
 
   .about-inner {
@@ -41,8 +41,9 @@
 
   .inner__description {
     width: 54vw;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 2.76vh;
+    line-height: 3.3vh;
+    text-indent: 4vh;
   }
 }
 
@@ -57,9 +58,14 @@
     line-height: 23px;
   }
 
+  .about-inner {
+    gap: 0.8vh;
+  }
+
   .inner__description {
     width: 90%;
     font-size: 16px;
     line-height: 19px;
+    text-indent: 2.2vh;
   }
 }

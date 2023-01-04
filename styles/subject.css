@@ -4,7 +4,7 @@
 
 .subject__title {
   font-family: 'Roboto Medium';
-  font-size: 48px;
+  font-size: 4.43vh;
   margin-bottom: 2.5vh;
   cursor: default;
   color: #121212;
@@ -12,7 +12,7 @@
 
 .subject__town {
   font-family: 'Roboto Medium';
-  font-size: 24px;
+  font-size: 2.2vh;
   margin-bottom: 4.8vh;
   cursor: default;
   color: #121212;
@@ -24,7 +24,7 @@
 
 .subject__link {
   text-decoration: none;
-  margin-right: 3vw;
+  margin-right: 1.55vw;
 }
 
 .subject__link:hover {
@@ -35,19 +35,23 @@
 @media (max-width: 992px) {
 
   .subject {
-    margin-bottom: 4.2vh;
+    margin-bottom: 4.6vh;
   }
 
   .subject__title {
-    font-size: 32px;
-    line-height: 38px;
-    /* margin-bottom: 20px; */
+    /* font-size: 32px;
+    line-height: 38px; */
+    margin-bottom: 3.2vh;
   }
 
   .subject__town {
     margin-bottom: 4.3vh;
     font-size: 20px;
     line-height: 23px;
+  }
+
+  .subject__link {
+   margin-right: 3vw;
   }
 }
 
@@ -66,6 +70,10 @@
     margin-bottom: 15px;
     font-size: 18px;
     line-height: 21px;
+  }
+
+  .subject__link {
+    margin-right: 5.6vw;
   }
 
   .subject__link-img {
