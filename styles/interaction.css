@@ -10,20 +10,22 @@
 }
 
 .form__input {
-  width: 17.4vw;
-  height: 5.9vh;
+  width: 16.8vw;
+  height: 6vh;
+  padding-left: 13px;
   border-radius: 11px;
   border: 1px solid #121212;
   background-color: #FFFFFF;
   font-family: 'Roboto Medium';
   color: #121212;
   font-size: 2.5vh;
+  /* padding: 14px 152px 14px 13px; */
   /* line-height: 38px;
   margin-bottom: 25px; */
 }
 
 .form__input::placeholder {
-  padding: 14px 152px 14px 13px;
+  /* padding: 14px 152px 14px 13px; */
   font-family: 'Roboto Medium';
   color: #121212;
   font-size: 3vh;
@@ -47,6 +49,11 @@
   transition: 0.3s ease-in;
 }
 
+.form__submit:focus {
+  opacity: 0.7;
+  transition: 0.3s ease-in;
+}
+
 @media (max-width: 992px) {
   .form {
     width: 48.8vw;
@@ -54,11 +61,11 @@
 
   .form-item {
     width: 48.8vw;
-    margin-bottom: 0.9vh;
+    margin-bottom: 2.7vh;
   }
 
   .form__input {
-    width: 22.8vw;
+    width: 21.6vw;
     height: 6.2vh;
   }
 
@@ -97,7 +104,7 @@
   }
 
   .form__input {
-    width: 178px;
+    width: 166px;
     height: 32px;
     margin-bottom: 0;
   }

@@ -39,7 +39,7 @@
 
   .preview__image {
     width: 37.5vw;
-    height: 97vh;
+    height: 100vh;
   }
 
   .preview__caption {
@@ -54,7 +54,8 @@
 
 @media (max-width: 540px) {
   .preview {
-    margin: 0 0 68px;
+    height: 741px;
+    margin-bottom: 16px;
     display: flex;
     justify-content: center;
   }
@@ -67,8 +68,8 @@
 
   .preview__caption {
     height: 56px;
-    position: absolute;
-    top: 685px;
+    position: static;
+    /* top: 685px; */
     /* padding: 13px 0 13px 0; */
     font-size: 24px;
     /* line-height: 28px; */
