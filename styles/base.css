@@ -1,22 +1,34 @@
 
 .wrapper {
-  min-height: 100vh;
   display: flex;
   background-image: url(../images/fon1920px.jpg);
   background-repeat: no-repeat;
 }
 
 .main {
-  height: 100vh;
-  width: 67vw;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .conteiner {
-  height: 100vh;
-  width: 59.5vw;
+  width: 90%;
   padding-top: 5.9vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media (max-width: 1600px) {
+  .conteiner {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 1152px) {
+  .conteiner {
+    padding-top: 24px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -24,30 +36,26 @@
     width: 992px;
     background-image: url(../images/fon992px.png);
   }
-
-  .conteiner {
-    padding-top: 3vh;
-    width: 53.4vw;
-  }
 }
 
 @media (max-width: 540px) {
   .wrapper {
     width: 540px;
-    height: 1293px;
+    /* height: 1293px; */
     flex-direction: column;
     align-items: center;
     background-position: bottom;
     background-repeat: no-repeat;
+    background-image: url(../images/fon540.png);
   }
 
-  .main {
-    width: 100%;
-  }
+  /* .main {
+    width: 100vw;
+  } */
 
   .conteiner {
-    height: 100%;
+    /* height: 100%; */
     width: 390px;
-    padding-top: 0
+    /* padding-top: 0 */
   }
 }
